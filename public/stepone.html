@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Step One</title>
+  <script></script>
+</head>
+
+<body>
+  <div class="cont">
+    <div class="first">
+      <div style="margin-top: 60%; margin-inline-start: 35%; margin-bottom: 20%">
+        <span class="pagelinkon"><b>1</b></span>
+        <span class="pagelinknot" style="margin-left: 5%"><b>2</b></span>
+      </div>
+      <span>
+        <p class="p p1" style="margin-bottom: 10%">
+          Give us some basic information
+        </p>
+      </span>
+      <span>
+        <p class="p p2">
+          To start off. Please enter main contact name, email <br />
+          adress and password
+        </p>
+      </span>
+    </div>
+    <div id="partition"></div>
+    <div class="second">
+      <div style="
+            font-family: Helvetica;
+            font-size: 15px;
+            margin-left: 10%;
+            margin-top: 10%;
+          ">
+        <p>Step 1</p>
+      </div>
+      <div style="margin-left: 10%">
+        <form action="http://127.0.0.1:5500/steptwo.html" style="font-family: Verdana; font-size: 10px; color: gray">
+          <label for="fname" style="margin-right: 26.3%">Main Contact Name</label>
+          <label for="email">Email Adress</label><br />
+          <input type="text" id="fname" name="fname" placeholder="eg. Johnsmith"
+            style="margin-top: 1.5%; margin-right: 5%; margin-bottom: 3%" />
+          <input type="email" id="email" name="email" placeholder="eg. Johnsmith@mybusiness.com"
+            style="margin-bottom: 3%" /><br />
+          <label for="pwd">Password</label>
+          <label for="cpwd"></label><br />
+          <input type="password" id="pwd" name="pwd" placeholder="Password must be at least 8 characters"
+            style="margin-top: 1.5%; margin-right: 5%" />
+          <input type="password" id="cpwd" name="cpwd" placeholder="Confirm Password" style="margin-top: 1.5%" />
+          <button style="margin-top: 10%" class="successbutoon" type="submit">
+            Continue
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

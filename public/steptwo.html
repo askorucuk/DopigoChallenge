@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Step Two</title>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="first">
+            <div style="margin-top: 60%; margin-inline-start: 35%; margin-bottom: 20%">
+                <span class="pagelinkon"><b>1</b></span>
+                <span class="pagelinkon" style="margin-left: 5%"><b>2</b></span>
+            </div>
+            <span>
+                <p class="p p1" style="margin-bottom: 10%">
+                    Complete your registration
+                </p>
+            </span>
+            <span>
+                <p class="p p2">
+                    Please enter business details
+                </p>
+            </span>
+        </div>
+        <div id="partition"></div>
+        <div class="second">
+            <div style="
+            font-family: Helvetica;
+            font-size: 15px;
+            margin-left: 10%;
+            margin-top: 10%;
+          ">
+                <p>Step 2</p>
+            </div>
+            <div style="margin-left: 10%">
+                <form style="font-family: Verdana; font-size: 10px; color: gray">
+                    <label for="bname">Business Name (English)</label><br>
+                    <input style="width: 85%;margin-top: 1.5%;margin-bottom: 3%;" type="text" id="bname" name="bname" placeholder="eg. mybusiness"><br>
+                    <label style="margin-right: 28%;" for="bweb">Business Website</label>
+                    <label for="phone">Main Phone Number</label><br>
+                    <input style="margin-top: 1.5%;margin-bottom: 3%;margin-right: 4.5%;" type="text" id="bweb" name="bweb" placeholder="eg. mybusiness.com">
+                    <input style="margin-top: 1.5%;margin-bottom: 3%;" type="tel" id="phone" name="phone" pattern="[0-9]{3} [0-9]{4} [0-9]{4}"
+                        placeholder="eg. 658 0000 0000"><br>
+                    <label style="margin-right: 13%;" for="business">Please Select Your Business Type</label>
+                    <label for="phone">Main Phone Number</label><br>
+                    <select style="margin-top: 1.5%;margin-bottom: 3%;margin-right: 4.5%;" id="business" name="business">
+                        <option value="australia">Please Select</option>
+                        <option value="australia">Sole Proprietorship</option>
+                        <option value="canada">General Partnership</option>
+                    </select>
+                    <input style="margin-top: 1.5%;margin-bottom: 3%;" type="tel" id="phone" name="phone" pattern="[0-9]{3} [0-9]{4} [0-9]{4}"
+                        placeholder="eg. 658 0000 0000"><br>
+                    <label for="badress">Business Adress (English)</label><br>
+                    <input style="margin-top: 1.5%;" type="text" id="badress" name="badress" placeholder="eg. mybusiness.com"><br>
+                    <a href="http://127.0.0.1:5500/stepone.html" class="backbutton"><img src="./assets/back.png" width="7px" height="7px">
+                        &nbsp;&nbsp;Back
+                    </a>
+                    <button style="margin-top: 10%;margin-left: 1.5%;" class="successbutoon" type="submit">
+                        Confirm
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

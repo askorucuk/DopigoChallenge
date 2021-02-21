@@ -1,0 +1,14 @@
+  
+{
+    "root": "public",
+    "routes": {
+        "/*.html": "stepone.html"
+    },
+    "clean_urls": true,
+    "https_only": true,
+    "headers": {
+        "/**": {
+            "Access-Control-Allow-Origin": "*"
+        }
+    }
+}
