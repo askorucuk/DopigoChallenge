@@ -1,4 +1,4 @@
 # DopigoChallenge
 
 Heroku adress:
-https://dopigochallenge.herokuapp.com/stepone 
+https://dopigochallenge.herokuapp.com/stepone.html
