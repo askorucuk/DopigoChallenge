@@ -101,6 +101,7 @@ select {
   padding-bottom: 10px;
   cursor: pointer;
   outline: 0;
+  text-decoration: none;
 }
 
 .backbutton {
@@ -156,6 +157,14 @@ select {
 }
 .p2 {
   font-size: 11px;
+  color: gray;
+  font-family: "Helvetica";
+}
+
+  
+.p3 {
+  margin-top: 30%;
+  font-size: 45px;
   color: gray;
   font-family: "Helvetica";
 }
