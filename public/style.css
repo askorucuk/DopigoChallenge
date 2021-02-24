@@ -45,6 +45,9 @@ input[type="text"] {
   padding-left: 2%;
   box-sizing: border-box;
   font-size: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
   border: 1px solid rgb(224, 224, 224);
 }
 input[type="password"] {
@@ -54,6 +57,9 @@ input[type="password"] {
   padding-left: 2%;
   box-sizing: border-box;
   font-size: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
   border: 1px solid rgb(224, 224, 224);
 }
 input[type="email"] {
@@ -63,6 +69,9 @@ input[type="email"] {
   padding-left: 2%;
   box-sizing: border-box;
   font-size: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
   border: 1px solid rgb(224, 224, 224);
 }
 input[type="tel"] {
@@ -72,6 +81,9 @@ input[type="tel"] {
   padding-left: 2%;
   box-sizing: border-box;
   font-size: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
   border: 1px solid rgb(224, 224, 224);
 }
 input:focus {
@@ -84,6 +96,9 @@ select {
   padding-left: 2%;
   box-sizing: border-box;
   font-size: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
   border: 1px solid rgb(224, 224, 224);
   outline: 0;
 }
